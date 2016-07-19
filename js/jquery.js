@@ -7,6 +7,7 @@ $(document).ready(function(){
 function drawGrid(){
 	var count = 0;
 	while(count < 17) {
-		$(".wrapper").add("<div class ='grid'></div>");
+		$(".wrapper").append("<div class ='grid'></div>");
+		count += 1;
 	}
 }
