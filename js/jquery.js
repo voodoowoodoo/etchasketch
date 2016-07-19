@@ -22,7 +22,7 @@ function defineGrid(width, height){
 
 //Prompts the user for entering the dimensions for a new grid, and creates that grid
 function gridPrompt(){
-	var dimension = parseInt(prompt("Enter the width / height for your new grid"));
+	var dimension = parseInt(prompt("Enter the width / height for your new grid (64 or below, else it becomes extremely slow."));
 	
 	$(".wrapper").empty(); //clears the existing grid, preparing for the new draw
 
