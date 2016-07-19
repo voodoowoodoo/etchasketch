@@ -1,12 +1,13 @@
 $(document).ready(function(){
-	drawGrid();
-
+	drawGrid(16, 16);
 });
 
-//Draws the original 16 x 16 grid
-function drawGrid(){
+//Draws the grid with a given width and height
+function drawGrid(width, height){
 	var count = 0;
-	while(count < 16) {
+	var surface = width * height;
+	while(count < surface) {
+
 		$(".wrapper").append("<div class ='grid'></div>");
 		count += 1;
 	}
