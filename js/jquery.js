@@ -1,10 +1,11 @@
+//Initial script sothat the user starts with a 16 x 16 sketchpad
 $(document).ready(function(){
 	
 	defineGrid(16, 16);
 	
 });
 
-//defines the paramaters of the grid divs, sothat they fit in the wrapper
+//defines the paramaters of the grid divs, so that they fit in the wrapper
 //the reason that count a surface are in here instead of drawgrid is beacuse of previous version not including a grid refresh button.
 function defineGrid(width, height){
 

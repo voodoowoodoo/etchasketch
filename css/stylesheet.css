@@ -9,3 +9,11 @@
 	float: left;
 
 }
+
+#newGrid {
+	width: 320px;
+	height: 320px;
+	margin: 10px auto;
+	text-align: center;
+	
+}
