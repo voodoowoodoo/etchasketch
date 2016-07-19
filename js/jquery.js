@@ -1,5 +1,13 @@
 $(document).ready(function(){
+	
 	drawGrid(16, 16);
+
+	//Change grid square color permanently when hovering over it.
+	$(".grid").mouseenter(function(){
+		$(this).css("background-color", "black");
+
+	});	
+	
 });
 
 //Draws the grid with a given width and height
